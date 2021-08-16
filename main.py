@@ -7,7 +7,7 @@ from discord.ext.commands.core import _CaseInsensitiveDict
 intents = discord.Intents.default( )
 intents.members = True
 
-TOKEN = 'ODc2ODQ0ODU1NjY4NjU0MTky.YRp_aA.8WgmI7bjf4IoCgn24K_o3mRH9AU'
+TOKEN = ''
 bot = commands.Bot(command_prefix='--', _CaseInsensitive=True, intents=intents)
 bot.remove_command('help')
 
